@@ -1,0 +1,23 @@
+.row{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.cel1, .cel2{
+  width: 30%;
+  margin: auto;
+}
+
+.cel3, .cel4{
+  width: 20%;
+  margin: auto;
+  padding: 0;
+}
+
+h1{
+  text-align: center;
+  text-decoration: underline;
+}

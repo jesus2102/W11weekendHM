@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Student list</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/app.js"></script>
+  </head>
+  <body>
+    <h1>CodeClan Students</h1>
+    <form id="new-item-form">
+    <div class="row">
+      <div class="cel1">
+        <label for="firstName">First Name</label>
+      </div>
+      <div class="cel2">
+        <label for="lastName">Laste Name</label>
+      </div>
+      <div class="cel3">
+        <label for="cohort">Cohort</label>
+      </div>
+      <div class="cel4"></div>
+    </div>
+    <div class="row">
+      <div class="cel1">
+        <input type="text" name="firstName" placeholder="First Name" id="firstName" required>
+      </div>
+      <div class="cel2">
+        <input type="text" name="LastName" placeholder="Last Name" id="LastName" required>
+      </div>
+      <div class="cel3">
+        <select id="category">
+            <option value="" disabled selected>---</option>
+            <option value="E20">E20</option>
+            <option value="E21">E21</option>
+            <option value="E22">E22</option>
+            <option value="E23">E23</option>
+            <option value="E24">E24</option>
+          </select>
+      </div>
+      <div class="cel4">
+        <input type="submit" value="ADD"/>
+      </div>
+    </div>
+  </form>
+
+    <div class="row" id="student-list"></div>
+
+  </body>
+</html>
