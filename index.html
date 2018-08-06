@@ -8,13 +8,13 @@
   </head>
   <body>
     <h1>CodeClan Students</h1>
-    <form id="new-item-form">
+    <form id="new-student-form">
     <div class="row">
       <div class="cel1">
         <label for="firstName">First Name</label>
       </div>
       <div class="cel2">
-        <label for="lastName">Laste Name</label>
+        <label for="lastName">Last Name</label>
       </div>
       <div class="cel3">
         <label for="cohort">Cohort</label>
@@ -26,10 +26,10 @@
         <input type="text" name="firstName" placeholder="First Name" id="firstName" required>
       </div>
       <div class="cel2">
-        <input type="text" name="LastName" placeholder="Last Name" id="LastName" required>
+        <input type="text" name="LastName" placeholder="Last Name" id="lastName" required>
       </div>
       <div class="cel3">
-        <select id="category">
+        <select id="cohort">
             <option value="" disabled selected>---</option>
             <option value="E20">E20</option>
             <option value="E21">E21</option>
@@ -44,7 +44,7 @@
     </div>
   </form>
 
-    <div class="row" id="student-list"></div>
+    <div id="student-list"></div>
 
   </body>
 </html>
